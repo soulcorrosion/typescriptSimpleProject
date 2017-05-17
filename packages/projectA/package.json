@@ -1,0 +1,16 @@
+{
+  "name": "projectA",
+  "version": "0.0.1",
+  "description": "",    
+  "keywords": [  
+    "typescript"
+  ],
+   "scripts": {
+    "postinstall": "node node_modules/linklocal/bin/linklocal"
+  },
+  "author": "",
+  "dependencies": {
+    "projectB": "../../projectB",
+    "linklocal": "~2.8.0"
+  }
+}
